@@ -80,7 +80,7 @@ const DescriptionText = styled.p`
   line-height: 26px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 200px; /* Reduce margin to minimize the space between text and cards */
+  margin-bottom: 180px; /* Reduce margin to minimize the space between text and cards */
 `;
 
 const CardsContainer = styled.div`
