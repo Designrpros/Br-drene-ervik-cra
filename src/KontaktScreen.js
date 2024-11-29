@@ -102,7 +102,7 @@ export default function KontaktScreen() {
               <ContactDetail>
                 <FaEnvelope /> E-post: ervikhelge47@gmail.com
               </ContactDetail>
-              <ExternalLink href="https://www.snikkeren.no">
+              <ExternalLink href="https://www.Brødrene-Ervik.no">
                 <ContactDetail>
                   <FaLink /> Nettside: www.Brødrene-Ervik.no
                 </ContactDetail>
