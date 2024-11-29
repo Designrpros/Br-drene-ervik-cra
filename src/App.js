@@ -56,6 +56,8 @@ function App() {
         {/* Page content */}
         <AppContainer>
           <Routes>
+            {/* Set HomeScreen as default */}
+            <Route path="/" element={<HomeScreen />} /> {/* HomeScreen as default route */}
             <Route path="/brødrene-ervik" element={<HomeScreen />} /> {/* HomeScreen as Brødrene Ervik page */}
             <Route path="/kontakt" element={<KontaktScreen />} /> {/* KontaktScreen as Kontakt page */}
           </Routes>
