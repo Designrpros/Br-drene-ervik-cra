@@ -20,6 +20,11 @@ const Container = styled.div`
   background-size: cover; /* Ensure the image covers the full container */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
+
+  /* Ensure the background image covers the entire height and adjusts dynamically */
+  @media (max-width: 768px) {
+    height: 100vh; /* Keep full height on mobile */
+  }
 `;
 
 const ContentContainer = styled.div`
@@ -27,6 +32,10 @@ const ContentContainer = styled.div`
   z-index: 1;
   padding: 20px;
   color: #fff; /* White text color to stand out on the background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  min-height: 100%; /* Ensure content takes up the entire container height */
 `;
 
 const TopImageContainer = styled.div`

@@ -43,12 +43,24 @@ const TitleContainer = styled.div`
   justify-content: center;
   z-index: 1;
   background-color: transparent;
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    top: 20%;
+    padding: 0 20px; /* Add padding for mobile */
+  }
 `;
 
 const LogoImage = styled.img`
   width: 180px;
   height: 150px;
   margin-bottom: 20px;
+
+  /* Adjust logo size for smaller screens */
+  @media (max-width: 768px) {
+    width: 150px;
+    height: 120px;
+  }
 `;
 
 const TitleText = styled.h1`
@@ -57,11 +69,21 @@ const TitleText = styled.h1`
   color: #000;
   text-align: center;
   margin-bottom: 10px;
+
+  /* Responsive font size for mobile */
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 const SubtitleText = styled.h2`
   color: black;
   font-size: 24px;
+
+  /* Adjust subtitle font size for smaller screens */
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const ContentContainer = styled.div`
